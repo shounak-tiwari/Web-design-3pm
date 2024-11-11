@@ -1,0 +1,9 @@
+heading : h1 to h6
+paragraph : p 
+bold : b 
+italic : i
+for upper power : <sup>
+for lower power : <sub>
+
+dfn cite 
+
