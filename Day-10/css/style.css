@@ -1,0 +1,16 @@
+#bk{
+
+    color: blue;
+}
+.universal{
+    /* font-size: 35px; */
+    color: red;
+}
+
+body{
+    background-color: black;
+}
+
+*{
+    color:white;
+}
