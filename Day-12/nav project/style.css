@@ -1,0 +1,19 @@
+nav{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.navbar-items{
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.navbar-1 , .navbar-2{
+    display: flex;
+    
+    position: relative;
+    top:30px;
+}
+

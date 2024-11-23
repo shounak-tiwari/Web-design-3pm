@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    /* border: 2px solid black; */
+    /* height: 200px; */
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(7, 99, 175);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+}
+
+.main h1{
+    /* top: 10px; */
+    margin: 0px;
+    font-size: 55px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.sectiondiv{
+    position: relative;
+    top: 100px;
+    background-color: steelblue;
+}
+
+
+.sectiondiv-header{
+    position: sticky;
+    top: 100px;
+    bottom: 0px;
+    background-color: yellow;
+}

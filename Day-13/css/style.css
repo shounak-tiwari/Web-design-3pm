@@ -1,0 +1,68 @@
+.main{
+    background-color: rgb(18, 18, 90);
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+    /* width: 100%; */
+    background-color: white;
+}
+
+
+.brand-name{
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+}
+
+
+.nav{
+    border: 2px solid black;
+    list-style-type: none;
+    position: absolute;
+    right:10px;
+    top: 30px;
+}
+
+
+.navbar-item a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.sec-1{
+    border: 2px solid black;
+    /* height: 500px; */
+    /* background-color: greenyellow; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+}
+
+.card{
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid black;
+    transition: 4s;
+}
+
+.img-card{
+    display: flex;
+    justify-content: center;
+}
+
+.text-card{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.card:hover{
+    border: 2px solid orangered;
+    transform: scale(1.1);
+}

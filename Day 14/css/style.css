@@ -1,0 +1,30 @@
+body{
+    background-color: darkcyan;
+}
+
+.main-card{
+    position: relative;
+    display: grid;
+    /* grid-template-columns: 400px 200px 100px 400px; */
+    /* grid-template-columns: repeat(40,10fr); */
+    grid-template-columns: repeat(4,1fr) ;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.card{
+    border: 5px solid red;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    background-color: blue;
+
+}
+.card-img img{
+    width: auto;
+    height: 100px;
+    background-color: red;
+}
+.card-text{
+    font-size:25px ;
+    text-align: center;
+}
