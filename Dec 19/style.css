@@ -1,0 +1,32 @@
+:root{
+    --primary-color:rgb(20, 50, 185);
+    --sec-col:rgb(0, 0, 0);
+}
+
+.main{
+    background-color: var(--sec-col);
+    color: var(--primary-color);
+}
+
+.main2
+{
+    background-color: var(--sec-col);
+    color: var(--primary-color);
+}
+
+.btn{
+    /* width: 300px; */
+    /* height: 50px; */
+    font-size: 30px;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: var(--primary-color);
+}

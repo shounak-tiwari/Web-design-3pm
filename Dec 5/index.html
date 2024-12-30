@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Input Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="show"></div>
+  <div class="form-container">
+    <h1 id="demo">
+        <p>Student Input Form</p>
+    </h1>
+    <form action="" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="student-id">Student ID:</label>
+      <input type="text" id="student-id" name="student-id" placeholder="Enter your Student ID" required>
+
+      <label for="course">Course:</label>
+      <select id="course" name="course" required>
+        <option value="">Select your course</option>
+        <option value="science">Science</option>
+        <option value="arts">Arts</option>
+        <option value="commerce">Commerce</option>
+      </select>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="Enter any additional comments"></textarea>
+
+      <button onclick="return ValidateMethod()" type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>

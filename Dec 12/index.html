@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>todo list</h1>
+
+    <input type="text" id="input-data">
+    <button id="addbtn">add</button>
+
+    <ul id="main">
+
+    </ul>
+
+
+    <script>
+        let inputData = document.getElementById('input-data')
+        let addBtn = document.getElementById('addbtn')
+        let main = document.getElementById('main')
+
+        function run(){
+           let Data =inputData.value.trim()
+        if (!Data) {
+            alert('value felid is empty')
+            return ;
+        }
+            let temp = document.createElement('li')
+
+            temp.textContent = Data
+
+            
+            let removebtn =  document.createElement('button')
+            
+            removebtn.textContent ="REMOVE"
+
+            temp.appendChild(removebtn)
+            
+            removebtn.onclick=()=>{
+                temp.remove()
+            }
+            
+            main.appendChild(temp)
+            inputData.value=" "
+        }
+
+        addBtn.addEventListener('click',run)
+    </script>
+</body>
+
+</html>
