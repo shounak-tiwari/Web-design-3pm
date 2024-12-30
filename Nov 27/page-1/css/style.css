@@ -1,0 +1,38 @@
+.box{
+    background-color: cyan;
+    height: 400px;
+    
+
+    animation-name: box_animation;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+
+@keyframes box_animation {
+    0%{
+
+        background-color: cyan;
+    height: 400px;
+        }
+    25%{
+        background-color: darkcyan;
+    height: 400px;
+/*    width: 400px;*/
+    }
+    50%{
+        background-color: blue;
+    height: 400px;
+/*    width: 400px;*/
+    }
+    75%{
+        background-color: darkblue;
+    height: 400px;
+/*    width: 400px;*/
+    }
+    100%{
+        background-color: rgb(255, 0, 0);
+        height: 400px;
+/*        width: 400px;*/
+    }
+
+}

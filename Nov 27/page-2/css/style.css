@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: blue;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.brand-name{
+    font-size: 35px;
+}
+
+.brand-name img{
+    width: 200px;
+    border: 2px solid red;
+}
+
+
+
+
+.nav-item .nav-link{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    /* gap: 10px; */
+}
+.nav-item{
+list-style-type: none;
+    margin-left: 30px;
+}
+
+
+
+@media (max-width:700px) {
+    .nav{
+        display: none;
+    }
+}

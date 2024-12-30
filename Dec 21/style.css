@@ -1,0 +1,12 @@
+.brand-name{
+    color: rgb(90, 206, 232);
+    font-family:fantasy;
+}
+
+
+.bg{
+    background-color: red;
+}
+.bg-dark{
+    background-color: rgb(179, 0, 0);
+}

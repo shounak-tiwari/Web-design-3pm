@@ -1,0 +1,15 @@
+*{
+    color: white;
+    /* border: 2px solid red; */
+}
+body{
+    background-color: rgb(2, 73, 73);
+}
+
+.container,.container-fluid{
+    /* border: 2px solid white; */
+}
+
+.col-1{
+    border: 2px solid brown;
+}
